@@ -25,7 +25,8 @@ export default function Home() {
         </h1>
 
         <p>
-          Reviews, bonuses and guides for top online casinos.
+          Casino reviews, bonuses and guides
+          in English, Russian and Spanish.
         </p>
 
         <button>
@@ -33,6 +34,66 @@ export default function Home() {
         </button>
 
       </section>
+
+
+
+      <section className="top-casinos">
+
+        <h2>
+          🏆 Top Online Casinos
+        </h2>
+
+
+        <div className="ranking">
+
+
+          <div className="rank-card">
+
+            <h3>
+              🥇 #1 Stake Casino
+            </h3>
+
+            <p>
+              ⭐ 4.8 / 5
+            </p>
+
+            <p>
+              Best Crypto Casino
+            </p>
+
+            <button>
+              Visit Stake
+            </button>
+
+          </div>
+
+
+
+          <div className="rank-card">
+
+            <h3>
+              🥈 #2 Vavada Casino
+            </h3>
+
+            <p>
+              ⭐ 4.6 / 5
+            </p>
+
+            <p>
+              Best Slots Experience
+            </p>
+
+            <button>
+              Visit Vavada
+            </button>
+
+          </div>
+
+
+        </div>
+
+      </section>
+
 
 
 
@@ -50,12 +111,12 @@ export default function Home() {
           </p>
 
           <p>
-            Crypto casino with thousands of games,
-            live casino and fast payments.
+            Crypto casino, live games
+            and fast payments.
           </p>
 
           <strong>
-            💰 Bonus: Welcome Offer
+            💰 Premium Casino Choice
           </strong>
 
           <button>
@@ -78,12 +139,12 @@ export default function Home() {
           </p>
 
           <p>
-            Popular casino with slots,
-            tournaments and promotions.
+            Slots, tournaments
+            and casino promotions.
           </p>
 
           <strong>
-            💰 Bonus: Casino Rewards
+            💰 Slots & Bonuses
           </strong>
 
           <button>
