@@ -58,3 +58,35 @@ nav {
   font-weight: bold;
   color: #FFC83D;
 }
+.menu {
+  display: flex;
+  gap: 25px;
+  color: #d1d5db;
+}
+
+.hero {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.card {
+  background: #162033;
+  padding: 30px;
+  border-radius: 15px;
+  width: 300px;
+}
+
+.card h2 {
+  color: #FFC83D;
+}
+
+.card button {
+  margin-top: 20px;
+}
