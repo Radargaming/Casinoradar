@@ -3,9 +3,11 @@ export default function Home() {
     <main>
 
       <nav>
+
         <div className="logo">
           CasinoRadar
         </div>
+
 
         <div className="menu">
           <span>Home</span>
@@ -15,7 +17,9 @@ export default function Home() {
           <span>Blog</span>
           <span>EN | RU | ES</span>
         </div>
+
       </nav>
+
 
 
       <section className="hero">
@@ -24,38 +28,49 @@ export default function Home() {
           Find The Best Online Casinos
         </h1>
 
+
         <p>
-          CasinoRadar helps you find the best
-          casinos, bonuses and slot games.
+          Trusted casino reviews,
+          bonuses and slot guides.
         </p>
 
+
         <button>
-          View Top Casinos
+          Explore Casinos
         </button>
 
       </section>
 
 
 
+
+
       <section className="top-casinos">
 
+
         <h2>
-          🏆 CasinoRadar Top Casinos
+          🏆 Top Rated Casinos
         </h2>
+
 
 
         <div className="ranking">
 
 
+
           <div className="rank-card">
+
+
+            <div className="badge">
+              #1 BEST CHOICE
+            </div>
+
+
 
             <div className="casino-logo">
               🎰
             </div>
 
-            <div className="badge">
-              #1 BEST CHOICE
-            </div>
 
 
             <h3>
@@ -63,19 +78,42 @@ export default function Home() {
             </h3>
 
 
+
             <div className="rating">
               ⭐⭐⭐⭐⭐
             </div>
 
 
-            <p>
-              Premium crypto casino
-              experience.
-            </p>
+            <h4>
+              4.8 / 5
+            </h4>
+
+
+
+            <div className="features">
+
+              <p>
+                ✅ 10,000+ Games
+              </p>
+
+              <p>
+                ✅ Instant Payments
+              </p>
+
+              <p>
+                ✅ Crypto Friendly
+              </p>
+
+              <p>
+                ✅ 24/7 Support
+              </p>
+
+            </div>
+
 
 
             <strong>
-              💰 Welcome Bonus
+              💰 Premium Welcome Bonus
             </strong>
 
 
@@ -83,7 +121,11 @@ export default function Home() {
               Visit Casino
             </button>
 
+
           </div>
+
+
+
 
 
 
@@ -92,14 +134,16 @@ export default function Home() {
           <div className="rank-card">
 
 
+            <div className="badge">
+              #2 TOP SLOTS
+            </div>
+
+
+
             <div className="casino-logo">
               🎲
             </div>
 
-
-            <div className="badge">
-              #2 TOP SLOTS
-            </div>
 
 
             <h3>
@@ -107,19 +151,42 @@ export default function Home() {
             </h3>
 
 
+
             <div className="rating">
               ⭐⭐⭐⭐☆
             </div>
 
 
-            <p>
-              Slots, jackpots
-              and tournaments.
-            </p>
+            <h4>
+              4.6 / 5
+            </h4>
+
+
+
+            <div className="features">
+
+              <p>
+                ✅ Premium Slots
+              </p>
+
+              <p>
+                ✅ Fast Withdrawals
+              </p>
+
+              <p>
+                ✅ Daily Promotions
+              </p>
+
+              <p>
+                ✅ Player Rewards
+              </p>
+
+            </div>
+
 
 
             <strong>
-              💰 Casino Rewards
+              🎁 Casino Rewards
             </strong>
 
 
@@ -133,7 +200,10 @@ export default function Home() {
 
         </div>
 
+
       </section>
+
+
 
 
 
@@ -147,11 +217,13 @@ export default function Home() {
           </h2>
 
           <p>
-            Detailed reviews,
-            ratings and guides.
+            Detailed guides,
+            ratings and comparisons.
           </p>
 
         </div>
+
+
 
 
         <div className="card">
@@ -161,13 +233,14 @@ export default function Home() {
           </h2>
 
           <p>
-            Find the best casino offers.
+            Find the latest casino offers.
           </p>
 
         </div>
 
 
       </section>
+
 
 
     </main>
