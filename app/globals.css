@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -44,6 +45,7 @@ nav {
 .logo {
   font-size: 34px;
   font-weight: 900;
+
   color: #ffd700;
 
   text-shadow:
@@ -59,7 +61,6 @@ nav {
 }
 
 
-
 /* HERO */
 
 .hero {
@@ -70,6 +71,7 @@ nav {
 
 h1 {
   font-size: 56px;
+
   color: #ffd700;
 
   text-shadow:
@@ -84,15 +86,18 @@ p {
 }
 
 
-
 /* BUTTON */
 
 button {
+
   margin-top: 25px;
+
   padding: 16px 40px;
 
   border: none;
+
   border-radius: 50px;
+
 
   background:
     linear-gradient(
@@ -101,25 +106,32 @@ button {
       #ff8c00
     );
 
+
   color: #111;
 
   font-size: 18px;
+
   font-weight: bold;
 
   cursor: pointer;
 
+
   box-shadow:
     0 0 25px #ffd700;
 
+
   transition: .3s;
+
 }
 
 
 button:hover {
+
   transform: scale(1.1);
 
   box-shadow:
     0 0 50px #ffd700;
+
 }
 
 
@@ -127,13 +139,18 @@ button:hover {
 /* TOP CASINOS */
 
 .top-casinos {
+
   margin-top: 90px;
+
 }
 
 
 .top-casinos h2 {
+
   color: #ffd700;
+
   font-size: 40px;
+
 }
 
 
@@ -147,6 +164,7 @@ button:hover {
   gap: 40px;
 
   margin-top: 60px;
+
 }
 
 
@@ -162,6 +180,9 @@ button:hover {
 
   padding: 35px;
 
+  overflow: hidden;
+
+
   background:
     linear-gradient(
       145deg,
@@ -169,16 +190,21 @@ button:hover {
       #12081d
     );
 
+
   border-radius: 25px;
 
+
   border: 1px solid #ffd700;
+
 
   box-shadow:
     0 0 30px rgba(255,215,0,.5);
 
+
   transition: .4s;
 
 }
+
 
 
 .rank-card:hover,
@@ -187,13 +213,15 @@ button:hover {
   transform:
     translateY(-15px);
 
+
   box-shadow:
     0 0 60px rgba(255,215,0,.9);
+
 }
 
 
 
-/* SHINE */
+/* GOLD SHINE */
 
 .rank-card::before,
 .card::before {
@@ -206,7 +234,8 @@ button:hover {
 
   left:-120%;
 
-  width:70%;
+
+  width:80%;
 
   height:100%;
 
@@ -215,14 +244,19 @@ button:hover {
     linear-gradient(
       120deg,
       transparent,
-      rgba(255,255,255,.25),
+      rgba(255,215,0,0.35),
       transparent
     );
 
 
-  transition:.6s;
+  transform:
+    skewX(-25deg);
+
+
+  transition:.8s;
 
 }
+
 
 
 .rank-card:hover::before,
@@ -244,8 +278,10 @@ button:hover {
 
   left:50%;
 
+
   transform:
     translateX(-50%);
+
 
   z-index:10;
 
@@ -267,10 +303,13 @@ button:hover {
 
   color:#111;
 
+
   font-weight:bold;
+
 
   box-shadow:
     0 0 25px #ffd700;
+
 }
 
 
@@ -282,6 +321,7 @@ button:hover {
   width:90px;
 
   height:90px;
+
 
   margin:
     15px auto 25px;
@@ -310,6 +350,7 @@ button:hover {
 
   box-shadow:
     0 0 35px #ffd700;
+
 }
 
 
@@ -321,6 +362,7 @@ button:hover {
   color:#ffd700;
 
   font-size:28px;
+
 }
 
 
@@ -330,6 +372,15 @@ button:hover {
   color:#ffd700;
 
   font-size:25px;
+
+}
+
+
+
+.features p {
+
+  font-size:17px;
+
 }
 
 
@@ -341,6 +392,7 @@ strong {
   margin:20px 0;
 
   color:#00ff99;
+
 }
 
 
@@ -362,6 +414,7 @@ strong {
 /* MOBILE */
 
 @media(max-width:768px){
+
 
   nav {
 
