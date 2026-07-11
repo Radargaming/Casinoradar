@@ -35,16 +35,6 @@ button {
   font-size: 18px;
   font-weight: bold;
 }
-  margin-top: 30px;
-  padding: 15px 35px;
-  border: none;
-  border-radius: 10px;
-  background: #00D4AA;
-  color: #0B1220;
-  font-size: 18px;
-  font-weight: bold;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
