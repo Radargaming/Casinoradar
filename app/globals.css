@@ -102,3 +102,39 @@ button {
 .card:hover {
   transform: translateY(-8px);
 }
+.top-casinos {
+  margin-top: 80px;
+}
+
+.top-casinos h2 {
+  font-size: 36px;
+  color: #FFC83D;
+  margin-bottom: 40px;
+}
+
+.ranking {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.rank-card {
+  background: #162033;
+  width: 320px;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.rank-card h3 {
+  color: #FFC83D;
+  font-size: 24px;
+}
+
+.rank-card p {
+  margin: 15px 0;
+}
+
+.rank-card button {
+  margin-top: 20px;
+}
