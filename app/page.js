@@ -132,13 +132,16 @@ export default function Home() {
               ✅ 10,000+ Games
             </p>
 
+
             <p>
               ✅ Instant Payments
             </p>
 
+
             <p>
               ✅ Crypto Friendly
             </p>
+
 
 
             <button>
