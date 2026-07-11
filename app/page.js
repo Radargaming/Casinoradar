@@ -9,10 +9,10 @@ export default function Home() {
 
         <div className="menu">
           <span>Home</span>
-          <span>Stake</span>
-          <span>Vavada</span>
+          <span>Casinos</span>
           <span>Bonuses</span>
-          <span>Reviews</span>
+          <span>Slots</span>
+          <span>Blog</span>
           <span>EN | RU | ES</span>
         </div>
       </nav>
@@ -21,75 +21,77 @@ export default function Home() {
       <section className="hero">
 
         <h1>
-          Best Online Casinos Reviews
+          Find The Best Online Casinos
         </h1>
 
         <p>
-          Honest casino reviews, bonuses and guides.
-          Compare Stake and Vavada casinos.
+          Reviews, bonuses and guides for top online casinos.
         </p>
 
         <button>
-          View Casinos
+          View Top Casinos
         </button>
 
       </section>
 
 
-      <section className="top-casinos">
 
-        <h2>
-          🏆 Top Casinos
-        </h2>
+      <section className="cards">
 
 
-        <div className="ranking">
+        <div className="card">
 
+          <h2>
+            🎰 Stake Casino
+          </h2>
 
-          <div className="rank-card">
+          <p className="rating">
+            ⭐ 4.8 / 5
+          </p>
 
-            <h3>
-              🥇 Stake Casino
-            </h3>
+          <p>
+            Crypto casino with thousands of games,
+            live casino and fast payments.
+          </p>
 
-            <p>
-              ⭐ Rating: 4.8 / 5
-            </p>
+          <strong>
+            💰 Bonus: Welcome Offer
+          </strong>
 
-            <p>
-              💰 Bonus: 200% up to $1000
-            </p>
-
-            <button>
-              Read Review
-            </button>
-
-          </div>
-
-
-
-          <div className="rank-card">
-
-            <h3>
-              🥈 Vavada Casino
-            </h3>
-
-            <p>
-              ⭐ Rating: 4.6 / 5
-            </p>
-
-            <p>
-              💰 Bonus: 100% up to $500
-            </p>
-
-            <button>
-              Read Review
-            </button>
-
-          </div>
-
+          <button>
+            Read Review
+          </button>
 
         </div>
+
+
+
+
+        <div className="card">
+
+          <h2>
+            🎰 Vavada Casino
+          </h2>
+
+          <p className="rating">
+            ⭐ 4.6 / 5
+          </p>
+
+          <p>
+            Popular casino with slots,
+            tournaments and promotions.
+          </p>
+
+          <strong>
+            💰 Bonus: Casino Rewards
+          </strong>
+
+          <button>
+            Read Review
+          </button>
+
+        </div>
+
 
       </section>
 
