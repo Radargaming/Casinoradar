@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -45,20 +44,19 @@ nav {
 .logo {
   font-size: 34px;
   font-weight: 900;
-
   color: #ffd700;
 
   text-shadow:
     0 0 10px #ffd700,
-    0 0 35px #ff8c00;
+    0 0 30px #ff8c00;
 }
 
 
 .menu {
   display: flex;
   gap: 25px;
-  font-weight: bold;
 }
+
 
 
 /* HERO */
@@ -71,7 +69,6 @@ nav {
 
 h1 {
   font-size: 56px;
-
   color: #ffd700;
 
   text-shadow:
@@ -86,6 +83,7 @@ p {
 }
 
 
+
 /* BUTTON */
 
 button {
@@ -98,14 +96,12 @@ button {
 
   border-radius: 50px;
 
-
   background:
     linear-gradient(
       45deg,
       #ffd700,
       #ff8c00
     );
-
 
   color: #111;
 
@@ -115,55 +111,34 @@ button {
 
   cursor: pointer;
 
-
   box-shadow:
     0 0 25px #ffd700;
-
-
-  transition: .3s;
-
-}
-
-
-button:hover {
-
-  transform: scale(1.1);
-
-  box-shadow:
-    0 0 50px #ffd700;
-
 }
 
 
 
-/* TOP CASINOS */
+/* TOP */
 
 .top-casinos {
-
   margin-top: 90px;
-
 }
 
 
 .top-casinos h2 {
-
-  color: #ffd700;
-
-  font-size: 40px;
-
+  color:#ffd700;
+  font-size:40px;
 }
-
 
 
 .ranking {
 
-  display: flex;
+  display:flex;
 
-  justify-content: center;
+  justify-content:center;
 
-  gap: 40px;
+  gap:40px;
 
-  margin-top: 60px;
+  margin-top:70px;
 
 }
 
@@ -174,13 +149,11 @@ button:hover {
 .rank-card,
 .card {
 
-  position: relative;
+  position:relative;
 
-  width: 340px;
+  width:340px;
 
-  padding: 35px;
-
-  overflow: hidden;
+  padding:35px;
 
 
   background:
@@ -191,17 +164,17 @@ button:hover {
     );
 
 
-  border-radius: 25px;
+  border-radius:25px;
 
 
-  border: 1px solid #ffd700;
+  border:1px solid #ffd700;
 
 
   box-shadow:
     0 0 30px rgba(255,215,0,.5);
 
 
-  transition: .4s;
+  transition:.4s;
 
 }
 
@@ -210,18 +183,16 @@ button:hover {
 .rank-card:hover,
 .card:hover {
 
-  transform:
-    translateY(-15px);
-
+  transform:translateY(-12px);
 
   box-shadow:
-    0 0 60px rgba(255,215,0,.9);
+    0 0 55px rgba(255,215,0,.9);
 
 }
 
 
 
-/* GOLD SHINE */
+/* SHINE */
 
 .rank-card::before,
 .card::before {
@@ -234,7 +205,6 @@ button:hover {
 
   left:-120%;
 
-
   width:80%;
 
   height:100%;
@@ -244,14 +214,12 @@ button:hover {
     linear-gradient(
       120deg,
       transparent,
-      rgba(255,215,0,0.35),
+      rgba(255,215,0,.35),
       transparent
     );
 
 
-  transform:
-    skewX(-25deg);
-
+  transform:skewX(-25deg);
 
   transition:.8s;
 
@@ -268,26 +236,23 @@ button:hover {
 
 
 
-/* BADGE */
+/* BADGE FIX */
 
 .badge {
 
   position:absolute;
 
-  top: -18px;
+  top:-25px;
 
   left:50%;
 
-
-  transform:
-    translateX(-50%);
+  transform:translateX(-50%);
 
 
-  z-index:10;
+  z-index:20;
 
 
-  padding:
-    8px 22px;
+  padding:10px 25px;
 
 
   border-radius:30px;
@@ -307,6 +272,9 @@ button:hover {
   font-weight:bold;
 
 
+  white-space:nowrap;
+
+
   box-shadow:
     0 0 25px #ffd700;
 
@@ -323,8 +291,7 @@ button:hover {
   height:90px;
 
 
-  margin:
-    15px auto 25px;
+  margin:20px auto 25px;
 
 
   border-radius:50%;
@@ -355,7 +322,6 @@ button:hover {
 
 
 
-
 .rank-card h3,
 .card h2 {
 
@@ -371,10 +337,9 @@ button:hover {
 
   color:#ffd700;
 
-  font-size:25px;
+  font-size:24px;
 
 }
-
 
 
 .features p {
@@ -382,7 +347,6 @@ button:hover {
   font-size:17px;
 
 }
-
 
 
 strong {
@@ -415,29 +379,20 @@ strong {
 
 @media(max-width:768px){
 
-
   nav {
-
     flex-direction:column;
-
     gap:25px;
-
   }
 
 
   .menu {
-
     flex-wrap:wrap;
-
     justify-content:center;
-
   }
 
 
   h1 {
-
     font-size:38px;
-
   }
 
 
