@@ -31,19 +31,45 @@ export default function Home() {
 
         <div className="card">
           <h2>Stake Casino</h2>
+
+          <div className="rating">
+            ⭐ 4.8 / 5
+          </div>
+
           <p>
             Crypto casino review, games and bonuses.
           </p>
-          <button>Read Review</button>
+
+          <strong>
+            Bonus: 200% up to $1000
+          </strong>
+
+          <button>
+            Read Review
+          </button>
         </div>
+
 
         <div className="card">
           <h2>Vavada Casino</h2>
+
+          <div className="rating">
+            ⭐ 4.6 / 5
+          </div>
+
           <p>
             Casino review, slots and promotions.
           </p>
-          <button>Read Review</button>
+
+          <strong>
+            Bonus: 100% up to $500
+          </strong>
+
+          <button>
+            Read Review
+          </button>
         </div>
+
 
       </section>
     </main>
