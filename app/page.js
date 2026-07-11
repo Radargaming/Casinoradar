@@ -1,8 +1,11 @@
 export default function Home() {
   return (
     <main>
+
       <nav>
-        <div className="logo">CasinoRadar</div>
+        <div className="logo">
+          CasinoRadar
+        </div>
 
         <div className="menu">
           <span>Home</span>
@@ -14,8 +17,12 @@ export default function Home() {
         </div>
       </nav>
 
+
       <section className="hero">
-        <h1>Find The Best Online Casinos</h1>
+
+        <h1>
+          Find The Best Online Casinos
+        </h1>
 
         <p>
           Casino reviews, bonuses and guides in English,
@@ -25,15 +32,21 @@ export default function Home() {
         <button>
           View Top Casinos
         </button>
+
       </section>
+
 
       <section className="cards">
 
-        <div className="card">
-          <h2>Stake Casino</h2>
 
-          <div className="rating">
-            ⭐ 4.8 / 5
+        <div className="card">
+
+          <h2>
+            Stake Casino
+          </h2>
+
+          <div>
+            ⭐ Rating: 4.8/5
           </div>
 
           <p>
@@ -41,20 +54,27 @@ export default function Home() {
           </p>
 
           <strong>
-            Bonus: 200% up to $1000
+            💰 Bonus: 200% up to $1000
           </strong>
+
+          <br />
 
           <button>
             Read Review
           </button>
+
         </div>
 
 
-        <div className="card">
-          <h2>Vavada Casino</h2>
 
-          <div className="rating">
-            ⭐ 4.6 / 5
+        <div className="card">
+
+          <h2>
+            Vavada Casino
+          </h2>
+
+          <div>
+            ⭐ Rating: 4.6/5
           </div>
 
           <p>
@@ -62,16 +82,21 @@ export default function Home() {
           </p>
 
           <strong>
-            Bonus: 100% up to $500
+            💰 Bonus: 100% up to $500
           </strong>
+
+          <br />
 
           <button>
             Read Review
           </button>
+
         </div>
 
 
       </section>
+
+
     </main>
   );
 }
