@@ -25,8 +25,8 @@ export default function Home() {
         </h1>
 
         <p>
-          Casino reviews, bonuses and guides
-          in English, Russian and Spanish.
+          Discover top casinos, bonuses,
+          slots and expert reviews.
         </p>
 
         <button>
@@ -40,7 +40,7 @@ export default function Home() {
       <section className="top-casinos">
 
         <h2>
-          🏆 Top Online Casinos
+          🏆 CasinoRadar Top Casinos
         </h2>
 
 
@@ -49,17 +49,30 @@ export default function Home() {
 
           <div className="rank-card">
 
+            <div className="badge">
+              #1 BEST CHOICE
+            </div>
+
             <h3>
-              🥇 #1 Stake Casino
+              🥇 Stake Casino
             </h3>
 
+            <div className="rating">
+              ⭐⭐⭐⭐⭐
+            </div>
+
             <p>
-              ⭐ 4.8 / 5
+              4.8 / 5 Rating
             </p>
 
             <p>
-              Best Crypto Casino
+              The ultimate crypto casino
+              with thousands of games.
             </p>
+
+            <strong>
+              💰 Premium Bonus
+            </strong>
 
             <button>
               Visit Stake
@@ -69,19 +82,33 @@ export default function Home() {
 
 
 
+
           <div className="rank-card">
 
+            <div className="badge">
+              #2 TOP SLOTS
+            </div>
+
             <h3>
-              🥈 #2 Vavada Casino
+              🥈 Vavada Casino
             </h3>
 
+            <div className="rating">
+              ⭐⭐⭐⭐☆
+            </div>
+
             <p>
-              ⭐ 4.6 / 5
+              4.6 / 5 Rating
             </p>
 
             <p>
-              Best Slots Experience
+              Slots, tournaments
+              and promotions.
             </p>
+
+            <strong>
+              💰 Casino Rewards
+            </strong>
 
             <button>
               Visit Vavada
@@ -103,21 +130,13 @@ export default function Home() {
         <div className="card">
 
           <h2>
-            🎰 Stake Casino
+            🎰 Stake Review
           </h2>
 
-          <p className="rating">
-            ⭐ 4.8 / 5
-          </p>
-
           <p>
-            Crypto casino, live games
-            and fast payments.
+            Games, payments,
+            bonuses and full casino guide.
           </p>
-
-          <strong>
-            💰 Premium Casino Choice
-          </strong>
 
           <button>
             Read Review
@@ -127,25 +146,16 @@ export default function Home() {
 
 
 
-
         <div className="card">
 
           <h2>
-            🎰 Vavada Casino
+            🎰 Vavada Review
           </h2>
 
-          <p className="rating">
-            ⭐ 4.6 / 5
-          </p>
-
           <p>
-            Slots, tournaments
-            and casino promotions.
+            Slots, promotions
+            and player experience.
           </p>
-
-          <strong>
-            💰 Slots & Bonuses
-          </strong>
 
           <button>
             Read Review
