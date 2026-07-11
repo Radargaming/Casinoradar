@@ -83,3 +83,22 @@ button {
 .card button {
   margin-top: 20px;
 }
+.rating {
+  margin: 15px 0;
+  font-size: 18px;
+  color: #FFC83D;
+}
+
+.card strong {
+  display: block;
+  margin: 20px 0;
+  color: #00D4AA;
+}
+
+.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
