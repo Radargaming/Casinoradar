@@ -15,6 +15,31 @@ main {
   text-align: center;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto 60px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #FFC83D;
+}
+
+.menu {
+  display: flex;
+  gap: 25px;
+  color: #d1d5db;
+}
+
+.hero {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 h1 {
   font-size: 48px;
   color: #FFC83D;
@@ -34,29 +59,7 @@ button {
   color: #0B1220;
   font-size: 18px;
   font-weight: bold;
-}
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto 60px;
-}
-
-.logo {
-  font-size: 28px;
-  font-weight: bold;
-  color: #FFC83D;
-}
-.menu {
-  display: flex;
-  gap: 25px;
-  color: #d1d5db;
-}
-
-.hero {
-  max-width: 900px;
-  margin: 0 auto;
+  cursor: pointer;
 }
 
 .cards {
