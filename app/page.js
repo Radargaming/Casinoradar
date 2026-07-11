@@ -1,28 +1,65 @@
+import Link from "next/link";
+
+
 export default function Home() {
+
   return (
+
     <main>
 
+
       <nav>
+
 
         <div className="logo">
           CasinoRadar
         </div>
 
 
+
         <div className="menu">
-          <span>Home</span>
-          <span>Casinos</span>
-          <span>Bonuses</span>
-          <span>Slots</span>
-          <span>Blog</span>
-          <span>EN | RU | ES</span>
+
+          <Link href="/">
+            Home
+          </Link>
+
+
+          <Link href="/casinos">
+            Casinos
+          </Link>
+
+
+          <Link href="/bonuses">
+            Bonuses
+          </Link>
+
+
+          <Link href="/slots">
+            Slots
+          </Link>
+
+
+          <Link href="/blog">
+            Blog
+          </Link>
+
+
+          <span>
+            EN | RU | ES
+          </span>
+
+
         </div>
+
 
       </nav>
 
 
 
+
+
       <section className="hero">
+
 
         <h1>
           Find The Best Online Casinos
@@ -38,6 +75,7 @@ export default function Home() {
         <button>
           Explore Casinos
         </button>
+
 
       </section>
 
@@ -90,31 +128,17 @@ export default function Home() {
 
 
 
-            <div className="features">
+            <p>
+              ✅ 10,000+ Games
+            </p>
 
-              <p>
-                ✅ 10,000+ Games
-              </p>
+            <p>
+              ✅ Instant Payments
+            </p>
 
-              <p>
-                ✅ Instant Payments
-              </p>
-
-              <p>
-                ✅ Crypto Friendly
-              </p>
-
-              <p>
-                ✅ 24/7 Support
-              </p>
-
-            </div>
-
-
-
-            <strong>
-              💰 Premium Welcome Bonus
-            </strong>
+            <p>
+              ✅ Crypto Friendly
+            </p>
 
 
             <button>
@@ -163,31 +187,20 @@ export default function Home() {
 
 
 
-            <div className="features">
-
-              <p>
-                ✅ Premium Slots
-              </p>
-
-              <p>
-                ✅ Fast Withdrawals
-              </p>
-
-              <p>
-                ✅ Daily Promotions
-              </p>
-
-              <p>
-                ✅ Player Rewards
-              </p>
-
-            </div>
+            <p>
+              ✅ Premium Slots
+            </p>
 
 
+            <p>
+              ✅ Fast Payments
+            </p>
 
-            <strong>
-              🎁 Casino Rewards
-            </strong>
+
+            <p>
+              ✅ Rewards
+            </p>
+
 
 
             <button>
@@ -204,45 +217,8 @@ export default function Home() {
       </section>
 
 
-
-
-
-      <section className="cards">
-
-
-        <div className="card">
-
-          <h2>
-            🎰 Casino Reviews
-          </h2>
-
-          <p>
-            Detailed guides,
-            ratings and comparisons.
-          </p>
-
-        </div>
-
-
-
-
-        <div className="card">
-
-          <h2>
-            🎁 Bonuses
-          </h2>
-
-          <p>
-            Find the latest casino offers.
-          </p>
-
-        </div>
-
-
-      </section>
-
-
-
     </main>
+
   );
+
 }
