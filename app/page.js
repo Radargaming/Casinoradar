@@ -36,6 +36,40 @@ export default function Home() {
       </section>
 
 
+      <section className="top-casinos">
+
+        <h2>
+          🏆 Top Casinos 2026
+        </h2>
+
+
+        <div className="ranking">
+
+          <div className="rank-card">
+            <h3>🥇 Stake Casino</h3>
+            <p>⭐ 4.8 / 5</p>
+            <p>💰 Bonus: 200% up to $1000</p>
+          </div>
+
+
+          <div className="rank-card">
+            <h3>🥈 Vavada Casino</h3>
+            <p>⭐ 4.6 / 5</p>
+            <p>💰 Bonus: 100% up to $500</p>
+          </div>
+
+
+          <div className="rank-card">
+            <h3>🥉 Lucky Casino</h3>
+            <p>⭐ 4.5 / 5</p>
+            <p>💰 Bonus: 150% up to $800</p>
+          </div>
+
+        </div>
+
+      </section>
+
+
       <section className="cards">
 
 
@@ -45,7 +79,7 @@ export default function Home() {
             Stake Casino
           </h2>
 
-          <div>
+          <div className="rating">
             ⭐ Rating: 4.8/5
           </div>
 
@@ -56,8 +90,6 @@ export default function Home() {
           <strong>
             💰 Bonus: 200% up to $1000
           </strong>
-
-          <br />
 
           <button>
             Read Review
@@ -73,7 +105,7 @@ export default function Home() {
             Vavada Casino
           </h2>
 
-          <div>
+          <div className="rating">
             ⭐ Rating: 4.6/5
           </div>
 
@@ -84,8 +116,6 @@ export default function Home() {
           <strong>
             💰 Bonus: 100% up to $500
           </strong>
-
-          <br />
 
           <button>
             Read Review
