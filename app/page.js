@@ -25,8 +25,8 @@ export default function Home() {
         </h1>
 
         <p>
-          Discover top casinos, bonuses,
-          slots and expert reviews.
+          CasinoRadar helps you find the best
+          casinos, bonuses and slot games.
         </p>
 
         <button>
@@ -49,33 +49,38 @@ export default function Home() {
 
           <div className="rank-card">
 
+            <div className="casino-logo">
+              🎰
+            </div>
+
             <div className="badge">
               #1 BEST CHOICE
             </div>
 
+
             <h3>
-              🥇 Stake Casino
+              Golden Stake
             </h3>
+
 
             <div className="rating">
               ⭐⭐⭐⭐⭐
             </div>
 
-            <p>
-              4.8 / 5 Rating
-            </p>
 
             <p>
-              The ultimate crypto casino
-              with thousands of games.
+              Premium crypto casino
+              experience.
             </p>
+
 
             <strong>
-              💰 Premium Bonus
+              💰 Welcome Bonus
             </strong>
 
+
             <button>
-              Visit Stake
+              Visit Casino
             </button>
 
           </div>
@@ -83,36 +88,45 @@ export default function Home() {
 
 
 
+
           <div className="rank-card">
+
+
+            <div className="casino-logo">
+              🎲
+            </div>
+
 
             <div className="badge">
               #2 TOP SLOTS
             </div>
 
+
             <h3>
-              🥈 Vavada Casino
+              Royal Vavada
             </h3>
+
 
             <div className="rating">
               ⭐⭐⭐⭐☆
             </div>
 
-            <p>
-              4.6 / 5 Rating
-            </p>
 
             <p>
-              Slots, tournaments
-              and promotions.
+              Slots, jackpots
+              and tournaments.
             </p>
+
 
             <strong>
               💰 Casino Rewards
             </strong>
 
+
             <button>
-              Visit Vavada
+              Visit Casino
             </button>
+
 
           </div>
 
@@ -123,43 +137,32 @@ export default function Home() {
 
 
 
-
       <section className="cards">
 
 
         <div className="card">
 
           <h2>
-            🎰 Stake Review
+            🎰 Casino Reviews
           </h2>
 
           <p>
-            Games, payments,
-            bonuses and full casino guide.
+            Detailed reviews,
+            ratings and guides.
           </p>
 
-          <button>
-            Read Review
-          </button>
-
         </div>
-
 
 
         <div className="card">
 
           <h2>
-            🎰 Vavada Review
+            🎁 Bonuses
           </h2>
 
           <p>
-            Slots, promotions
-            and player experience.
+            Find the best casino offers.
           </p>
-
-          <button>
-            Read Review
-          </button>
 
         </div>
 
