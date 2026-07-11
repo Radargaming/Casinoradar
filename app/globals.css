@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -22,8 +21,6 @@ body {
   min-height: 100vh;
 }
 
-
-/* MAIN */
 
 main {
   min-height: 100vh;
@@ -47,7 +44,6 @@ nav {
 .logo {
   font-size: 34px;
   font-weight: 900;
-
   color: #ffd700;
 
   text-shadow:
@@ -74,7 +70,6 @@ nav {
 
 h1 {
   font-size: 56px;
-
   color: #ffd700;
 
   text-shadow:
@@ -93,15 +88,11 @@ p {
 /* BUTTON */
 
 button {
-
   margin-top: 25px;
-
   padding: 16px 40px;
 
   border: none;
-
   border-radius: 50px;
-
 
   background:
     linear-gradient(
@@ -110,58 +101,40 @@ button {
       #ff8c00
     );
 
-
   color: #111;
 
   font-size: 18px;
-
   font-weight: bold;
 
   cursor: pointer;
 
-
   box-shadow:
     0 0 25px #ffd700;
 
-
   transition: .3s;
-
-
 }
 
 
 button:hover {
-
   transform: scale(1.1);
 
-
   box-shadow:
-
     0 0 50px #ffd700;
-
 }
-
 
 
 
 /* TOP CASINOS */
 
-
 .top-casinos {
-
   margin-top: 90px;
-
 }
 
 
 .top-casinos h2 {
-
   color: #ffd700;
-
   font-size: 40px;
-
 }
-
 
 
 
@@ -173,78 +146,65 @@ button:hover {
 
   gap: 40px;
 
-  margin-top: 50px;
-
+  margin-top: 60px;
 }
 
 
 
+/* CARDS */
 
 .rank-card,
 .card {
 
-
   position: relative;
-
 
   width: 340px;
 
-
   padding: 35px;
 
-
-
   background:
-
     linear-gradient(
       145deg,
       #24103a,
       #12081d
     );
 
-
-
   border-radius: 25px;
 
-
-
-  border:
-
-    1px solid #ffd700;
-
-
-
-  overflow: hidden;
-
-
+  border: 1px solid #ffd700;
 
   box-shadow:
-
     0 0 30px rgba(255,215,0,.5);
-
-
 
   transition: .4s;
 
 }
 
 
+.rank-card:hover,
+.card:hover {
 
+  transform:
+    translateY(-15px);
+
+  box-shadow:
+    0 0 60px rgba(255,215,0,.9);
+}
+
+
+
+/* SHINE */
 
 .rank-card::before,
 .card::before {
 
-
   content:"";
-
 
   position:absolute;
 
-
   top:0;
 
-  left:-100%;
-
+  left:-120%;
 
   width:70%;
 
@@ -252,7 +212,6 @@ button:hover {
 
 
   background:
-
     linear-gradient(
       120deg,
       transparent,
@@ -263,58 +222,72 @@ button:hover {
 
   transition:.6s;
 
-
 }
-
 
 
 .rank-card:hover::before,
 .card:hover::before {
 
-  left:120%;
+  left:130%;
 
 }
 
 
 
-.rank-card:hover,
-.card:hover {
+/* BADGE */
 
+.badge {
+
+  position:absolute;
+
+  top: -18px;
+
+  left:50%;
 
   transform:
+    translateX(-50%);
 
-    translateY(-15px);
+  z-index:10;
 
+
+  padding:
+    8px 22px;
+
+
+  border-radius:30px;
+
+
+  background:
+    linear-gradient(
+      45deg,
+      #ffd700,
+      #ff8c00
+    );
+
+
+  color:#111;
+
+  font-weight:bold;
 
   box-shadow:
-
-    0 0 60px rgba(255,215,0,.9);
-
+    0 0 25px #ffd700;
 }
-
-
 
 
 
 /* LOGO */
 
-
 .casino-logo {
-
 
   width:90px;
 
   height:90px;
 
-
   margin:
-
-    0 auto 25px;
-
+    15px auto 25px;
 
 
   border-radius:50%;
-
 
 
   display:flex;
@@ -324,13 +297,10 @@ button:hover {
   justify-content:center;
 
 
-
   font-size:45px;
 
 
-
   background:
-
     linear-gradient(
       145deg,
       #ffd700,
@@ -338,64 +308,8 @@ button:hover {
     );
 
 
-
   box-shadow:
-
     0 0 35px #ffd700;
-
-
-}
-
-
-
-
-/* BADGE */
-
-
-.badge {
-
-
-  position:absolute;
-
-
-  top:-15px;
-
-
-  left:50%;
-
-
-  transform:
-
-    translateX(-50%);
-
-
-
-  padding:
-
-    8px 22px;
-
-
-
-  border-radius:30px;
-
-
-
-  background:
-
-    linear-gradient(
-      45deg,
-      #ffd700,
-      #ff8c00
-    );
-
-
-
-  color:#111;
-
-
-  font-weight:bold;
-
-
 }
 
 
@@ -404,109 +318,83 @@ button:hover {
 .rank-card h3,
 .card h2 {
 
-
   color:#ffd700;
 
-
   font-size:28px;
-
-
 }
-
 
 
 
 .rating {
 
-
   color:#ffd700;
 
-
   font-size:25px;
-
-
 }
-
 
 
 
 strong {
 
-
   display:block;
-
 
   margin:20px 0;
 
-
   color:#00ff99;
-
-
 }
-
 
 
 
 .cards {
 
-
   display:flex;
-
 
   justify-content:center;
 
-
   gap:40px;
-
 
   margin-top:80px;
 
-
 }
-
-
 
 
 
 /* MOBILE */
 
-
 @media(max-width:768px){
 
+  nav {
 
-nav{
+    flex-direction:column;
 
-flex-direction:column;
+    gap:25px;
 
-gap:25px;
-
-}
-
-
-.menu{
-
-flex-wrap:wrap;
-
-justify-content:center;
-
-}
+  }
 
 
-h1{
+  .menu {
 
-font-size:38px;
+    flex-wrap:wrap;
 
-}
+    justify-content:center;
+
+  }
 
 
-.ranking,
-.cards{
+  h1 {
 
-flex-direction:column;
+    font-size:38px;
 
-align-items:center;
+  }
 
-}
 
+  .ranking,
+  .cards {
+
+    flex-direction:column;
+
+    align-items:center;
+
+  }
 
 }
