@@ -1,16 +1,20 @@
+import Link from "next/link";
+
 export default function Blog() {
   return (
     <main>
 
-      <h1>
-        📝 Casino Blog
-      </h1>
+      <section className="hero">
 
+        <h1>
+          Casino Guides & Reviews
+        </h1>
 
-      <p>
-        News, guides and tips
-        about online casinos.
-      </p>
+        <p>
+          Learn about casinos, games and responsible gaming.
+        </p>
+
+      </section>
 
 
 
@@ -19,42 +23,37 @@ export default function Blog() {
 
         <div className="card">
 
+
+          <img
+            src="/stake-review.jpg"
+            alt="Stake Casino Review"
+            style={{
+              width:"100%",
+              borderRadius:"20px"
+            }}
+          />
+
+
           <h2>
-            🎰 Best Slots Guide
+            Is Stake a Good Casino?
           </h2>
 
 
           <p>
-            Learn how to choose
-            the best slot games.
+            Complete review, popular games
+            and how to play smart.
           </p>
 
 
-          <button>
-            Read More
-          </button>
 
-        </div>
+          <Link href="/blog/stake-review">
 
+            <button>
+              Read Article
+            </button>
 
+          </Link>
 
-
-        <div className="card">
-
-          <h2>
-            💰 Casino Tips
-          </h2>
-
-
-          <p>
-            Strategies, bonuses
-            and player guides.
-          </p>
-
-
-          <button>
-            Read More
-          </button>
 
         </div>
 
