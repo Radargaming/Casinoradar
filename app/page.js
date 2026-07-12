@@ -12,15 +12,13 @@ export default function Home() {
 
 
         <p>
-          Find trusted casino reviews,
+          Discover casino reviews,
           bonuses and gaming guides.
         </p>
 
 
 
-        <a
-          href="/casinos"
-        >
+        <a href="/casinos">
 
           <button>
             Explore Casinos
@@ -44,8 +42,8 @@ export default function Home() {
 
 
 
-        <div className="ranking">
 
+        <div className="ranking">
 
 
           <div className="rank-card">
@@ -75,14 +73,21 @@ export default function Home() {
 
 
 
+            <h3>
+              Rating 4.8 / 5
+            </h3>
+
+
+
             <p>
-              Rating: 4.8 / 5
+              Premium online casino platform
+              with thousands of games.
             </p>
 
 
 
             <p>
-              ✅ Premium Casino Games
+              ✅ Casino Games
             </p>
 
 
@@ -92,8 +97,10 @@ export default function Home() {
 
 
             <p>
-              🌎 Availability depends on your location
+              🌎 Availability depends
+              on your location
             </p>
+
 
 
 
@@ -107,7 +114,6 @@ export default function Home() {
                 Visit Stake
               </button>
 
-
             </a>
 
 
@@ -119,7 +125,6 @@ export default function Home() {
 
 
       </section>
-
 
 
 
