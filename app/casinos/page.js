@@ -1,36 +1,28 @@
+import Link from "next/link";
+
 export default function Casinos() {
   return (
     <main>
 
-
       <section className="hero">
 
         <h1>
-          🎰 Top Casino Reviews
+          Top Online Casinos
         </h1>
 
-
         <p>
-          Discover trusted online casinos,
-          ratings and offers.
+          Compare trusted online casinos,
+          ratings and features.
         </p>
 
       </section>
 
 
 
+      <section className="cards">
 
 
-      <section className="ranking">
-
-
-        <div className="rank-card">
-
-
-          <div className="badge">
-            #1 BEST CHOICE
-          </div>
-
+        <div className="card">
 
 
           <div className="casino-logo">
@@ -38,11 +30,9 @@ export default function Casinos() {
           </div>
 
 
-
           <h2>
-            Stake
+            Stake Casino
           </h2>
-
 
 
           <div className="rating">
@@ -50,50 +40,28 @@ export default function Casinos() {
           </div>
 
 
-
-          <h3>
-            Rating 4.8 / 5
-          </h3>
-
+          <p>
+            Rating: 4.8/5
+          </p>
 
 
           <p>
-            One of the most popular online
-            gaming platforms with a wide
-            selection of casino games.
+            ✅ Large game selection
+            <br />
+            ✅ Fast payments
+            <br />
+            ✅ Crypto support
+            <br />
+            ✅ Live casino
           </p>
 
 
 
           <p>
-            ✅ Thousands of Games
+            Stake is a popular online
+            casino platform with many
+            games and entertainment options.
           </p>
-
-
-          <p>
-            ✅ Fast Payment Options
-          </p>
-
-
-          <p>
-            ✅ Crypto Supported
-          </p>
-
-
-
-          <p>
-            🌎 Availability may vary
-            depending on your location.
-          </p>
-
-
-
-
-          <strong>
-            💰 Casino Promotions Available
-          </strong>
-
-
 
 
 
@@ -107,9 +75,53 @@ export default function Casinos() {
               Visit Stake
             </button>
 
-
           </a>
 
+
+        </div>
+
+
+
+
+        <div className="card">
+
+
+          <div className="casino-logo">
+            🎲
+          </div>
+
+
+          <h2>
+            Coming Soon
+          </h2>
+
+
+          <p>
+            New casino review coming soon.
+          </p>
+
+
+        </div>
+
+
+
+
+        <div className="card">
+
+
+          <div className="casino-logo">
+            🃏
+          </div>
+
+
+          <h2>
+            Coming Soon
+          </h2>
+
+
+          <p>
+            New casino review coming soon.
+          </p>
 
 
         </div>
@@ -117,6 +129,25 @@ export default function Casinos() {
 
       </section>
 
+
+
+      <section className="hero">
+
+
+        <h2>
+          How We Rate Casinos
+        </h2>
+
+
+        <p>
+          We compare games, payment options,
+          user experience and important casino
+          features to help players make informed
+          decisions.
+        </p>
+
+
+      </section>
 
 
     </main>
