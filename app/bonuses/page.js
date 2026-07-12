@@ -2,51 +2,111 @@ export default function Bonuses() {
   return (
     <main>
 
-      <h1>
-        🎁 Casino Bonuses
-      </h1>
 
-      <p>
-        Find the latest casino promotions,
-        welcome offers and rewards.
-      </p>
+      <section className="hero">
+
+
+        <h1>
+          🎁 Casino Bonuses
+        </h1>
+
+
+        <p>
+          Discover casino promotions,
+          offers and rewards.
+        </p>
+
+
+      </section>
+
+
+
 
       <section className="cards">
 
+
         <div className="card">
 
+
           <h2>
-            💰 Welcome Bonus
+            🎰 Stake Promotions
           </h2>
 
+
+
           <p>
-            Best offers for new players.
+            Explore available promotions,
+            rewards and special offers.
           </p>
 
-          <button>
-            View Bonus
-          </button>
+
+
+          <p>
+            ✅ Casino Rewards
+          </p>
+
+
+          <p>
+            ✅ Special Events
+          </p>
+
+
+          <p>
+            ✅ VIP Benefits
+          </p>
+
+
+
+          <a
+            href="https://stake.com/?c=EIJ1YRw3"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+
+            <button>
+              Check Offers
+            </button>
+
+
+          </a>
+
+
 
         </div>
 
 
+
+
         <div className="card">
 
+
           <h2>
-            🔥 Weekly Promotions
+            🔥 Bonus Tips
           </h2>
 
+
           <p>
-            Free spins and special rewards.
+            Always check bonus terms,
+            wagering requirements and
+            availability in your region.
           </p>
 
-          <button>
-            View Offers
-          </button>
+
+
+          <p>
+            Play responsibly and
+            understand the rules.
+          </p>
+
+
 
         </div>
+
+
 
       </section>
+
+
 
     </main>
   );
