@@ -2,59 +2,87 @@ export default function ResponsibleGaming() {
   return (
     <main>
 
-      <h1>
-        🔞 Responsible Gaming
-      </h1>
+      <section className="hero">
+
+        <h1>
+          🔞 Responsible Gaming
+        </h1>
+
+        <p>
+          CasinoRadar supports safe and responsible gaming.
+        </p>
+
+      </section>
+
+
+
+      <section className="cards">
+
+
+        <div className="card">
+
+          <h2>
+            🎯 Play Responsibly
+          </h2>
+
+          <p>
+            Casino games should be entertainment,
+            not a way to make money.
+          </p>
+
+        </div>
+
+
+
+        <div className="card">
+
+          <h2>
+            ⏱ Set Limits
+          </h2>
+
+          <p>
+            Always control your time and budget.
+            Never gamble more than you can afford.
+          </p>
+
+        </div>
+
+
+
+        <div className="card">
+
+          <h2>
+            🛡 Stay Safe
+          </h2>
+
+          <p>
+            If gambling becomes a problem,
+            take a break and seek support.
+          </p>
+
+        </div>
+
+
+
+      </section>
+
+
 
 
       <section className="card">
 
-
-        <p>
-          CasinoRadar supports responsible gaming.
-        </p>
-
-
-        <p>
-          Online casino games should be viewed
-          as entertainment only.
-        </p>
-
-
-        <p>
-          Always play within your limits and
-          never gamble with money you cannot afford
-          to lose.
-        </p>
-
-
-        <p>
-          If gambling stops being fun, take a break
-          and seek professional help.
-        </p>
-
-
         <h2>
-          Important Rules
+          18+ Only
         </h2>
 
-
         <p>
-          • Players must be 18 years or older.
+          CasinoRadar is intended only for adults.
+          Please check the gambling laws in your
+          location before playing.
         </p>
-
-
-        <p>
-          • Set personal limits.
-        </p>
-
-
-        <p>
-          • Do not chase losses.
-        </p>
-
 
       </section>
+
 
 
     </main>
