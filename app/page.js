@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main>
@@ -7,24 +9,25 @@ export default function Home() {
 
 
         <h1>
-          CasinoRadar
+          Find The Best Online Casinos
         </h1>
 
 
         <p>
-          Discover casino reviews,
-          bonuses and gaming guides.
+          CasinoRadar helps you compare
+          online casinos, bonuses and features
+          to make smarter choices.
         </p>
 
 
 
-        <a href="/casinos">
+        <Link href="/casinos">
 
           <button>
-            Explore Casinos
+            View Top Casinos
           </button>
 
-        </a>
+        </Link>
 
 
       </section>
@@ -32,96 +35,124 @@ export default function Home() {
 
 
 
-
-      <section className="top-casinos">
-
-
-        <h2>
-          🏆 Featured Casino
-        </h2>
+      <section className="cards">
 
 
+        <div className="card">
 
 
-        <div className="ranking">
-
-
-          <div className="rank-card">
-
-
-            <div className="badge">
-              #1 BEST CHOICE
-            </div>
-
-
-
-            <div className="casino-logo">
-              🎰
-            </div>
-
-
-
-            <h2>
-              Stake
-            </h2>
-
-
-
-            <div className="rating">
-              ⭐⭐⭐⭐⭐
-            </div>
-
-
-
-            <h3>
-              Rating 4.8 / 5
-            </h3>
-
-
-
-            <p>
-              Premium online casino platform
-              with thousands of games.
-            </p>
-
-
-
-            <p>
-              ✅ Casino Games
-            </p>
-
-
-            <p>
-              ✅ Fast Payments
-            </p>
-
-
-            <p>
-              🌎 Availability depends
-              on your location
-            </p>
-
-
-
-
-            <a
-              href="https://stake.com/?c=EIJ1YRw3"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-
-              <button>
-                Visit Stake
-              </button>
-
-            </a>
-
-
-
+          <div className="casino-logo">
+            🏆
           </div>
 
 
+          <h2>
+            Top Rated Casinos
+          </h2>
+
+
+          <p>
+            We review casinos based on games,
+            payments, features and user experience.
+          </p>
+
+
         </div>
+
+
+
+
+        <div className="card">
+
+
+          <div className="casino-logo">
+            🎁
+          </div>
+
+
+          <h2>
+            Casino Bonuses
+          </h2>
+
+
+          <p>
+            Discover available promotions
+            and casino offers.
+          </p>
+
+
+          <Link href="/bonuses">
+
+            <button>
+              View Bonuses
+            </button>
+
+          </Link>
+
+
+        </div>
+
+
+
+
+        <div className="card">
+
+
+          <div className="casino-logo">
+            🛡️
+          </div>
+
+
+          <h2>
+            Play Responsibly
+          </h2>
+
+
+          <p>
+            Gambling should always be
+            entertainment. Play responsibly.
+          </p>
+
+
+        </div>
+
+
+      </section>
+
+
+
+      <section className="hero">
+
+
+        <h2>
+          Featured Casino
+        </h2>
+
+
+        <h3>
+          Stake Casino ⭐⭐⭐⭐⭐
+        </h3>
+
+
+        <p>
+          Explore games, payments and
+          platform features.
+        </p>
+
+
+
+        <a
+          href="https://stake.com/?c=EIJ1YRw3"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+
+          <button>
+            Visit Stake
+          </button>
+
+
+        </a>
 
 
       </section>
