@@ -2,15 +2,22 @@ export default function Casinos() {
   return (
     <main>
 
-      <h1>
-        🎰 Top Casino Reviews
-      </h1>
+
+      <section className="hero">
+
+        <h1>
+          🎰 Top Casino Reviews
+        </h1>
 
 
-      <p>
-        Find trusted online casinos,
-        ratings and offers.
-      </p>
+        <p>
+          Discover trusted online casinos,
+          ratings and offers.
+        </p>
+
+      </section>
+
+
 
 
 
@@ -43,37 +50,49 @@ export default function Casinos() {
           </div>
 
 
+
           <h3>
-            Rating: 4.8 / 5
+            Rating 4.8 / 5
           </h3>
 
 
 
           <p>
-            ✅ Thousands of Casino Games
+            One of the most popular online
+            gaming platforms with a wide
+            selection of casino games.
+          </p>
+
+
+
+          <p>
+            ✅ Thousands of Games
           </p>
 
 
           <p>
-            ✅ Fast Payments
+            ✅ Fast Payment Options
           </p>
 
 
           <p>
-            ✅ Crypto Friendly
+            ✅ Crypto Supported
           </p>
 
 
+
           <p>
-            🌎 Availability depends on your location
+            🌎 Availability may vary
+            depending on your location.
           </p>
 
 
 
 
           <strong>
-            💰 Welcome Offers Available
+            💰 Casino Promotions Available
           </strong>
+
 
 
 
@@ -85,15 +104,15 @@ export default function Casinos() {
           >
 
             <button>
-              Visit Stake Casino
+              Visit Stake
             </button>
+
 
           </a>
 
 
 
         </div>
-
 
 
       </section>
