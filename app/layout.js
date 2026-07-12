@@ -49,12 +49,13 @@ export default function RootLayout({ children }) {
         </nav>
 
 
+
         {children}
 
 
 
-        <footer>
 
+        <footer>
 
           <p>
             🔞 18+ Only
@@ -62,31 +63,41 @@ export default function RootLayout({ children }) {
 
 
           <p>
-            CasinoRadar provides casino information
-            and reviews. Gambling should be
+            CasinoRadar provides casino reviews
+            and information. Gambling should be
             entertainment only.
           </p>
 
 
+
           <div>
 
-            <Link href="/responsible-gaming">
+            <a
+              href="https://www.ncpgambling.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Responsible Gaming
-            </Link>
+            </a>
+
 
             {" | "}
+
 
             <Link href="/privacy">
               Privacy Policy
             </Link>
 
+
             {" | "}
+
 
             <Link href="/terms">
               Terms & Conditions
             </Link>
 
           </div>
+
 
 
           <p>
