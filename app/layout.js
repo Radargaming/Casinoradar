@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata = {
   title: "CasinoRadar - Casino Reviews & Bonuses",
   description:
-    "Casino reviews, bonuses and guides in English, Russian and Spanish."
+    "Casino reviews, bonuses and guides in English, Russian and Spanish.",
 };
 
 export default function RootLayout({ children }) {
@@ -19,17 +19,11 @@ export default function RootLayout({ children }) {
           </div>
 
           <div className="menu">
-
             <Link href="/">Home</Link>
-
             <Link href="/casinos">Casinos</Link>
-
             <Link href="/bonuses">Bonuses</Link>
-
             <Link href="/slots">Slots</Link>
-
             <Link href="/blog">Blog</Link>
-
           </div>
 
         </nav>
