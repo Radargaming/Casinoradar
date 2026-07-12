@@ -1,141 +1,126 @@
-export default function Casinos() {
+export default function Home() {
   return (
     <main>
 
-      <h1>
-        🎰 Top Casino Reviews
-      </h1>
+
+      <section className="hero">
 
 
-      <p>
-        Find trusted casinos,
-        ratings and offers.
-      </p>
+        <h1>
+          CasinoRadar
+        </h1>
 
 
-
-      <section className="ranking">
-
-
-        <div className="rank-card">
-
-
-          <div className="badge">
-            #1 BEST CHOICE
-          </div>
-
-
-          <div className="casino-logo">
-            🎰
-          </div>
-
-
-          <h2>
-            Stake
-          </h2>
-
-
-          <div className="rating">
-            ⭐⭐⭐⭐⭐
-          </div>
-
-
-          <h3>
-            4.8 / 5
-          </h3>
-
-
-          <p>
-            ✅ Premium Casino Games
-          </p>
-
-          <p>
-            ✅ Fast Payments
-          </p>
-
-          <p>
-            ✅ Crypto Friendly
-          </p>
-
-
-          <strong>
-            💰 Welcome Bonus
-          </strong>
+        <p>
+          Find trusted casino reviews,
+          bonuses and gaming guides.
+        </p>
 
 
 
-          <a
-            href="https://stake.com/?c=EIJ1YRw3"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button>
-              Visit Casino
-            </button>
-          </a>
-
-
-        </div>
-
-
-
-
-        <div className="rank-card">
-
-
-          <div className="badge">
-            #2 TOP SLOTS
-          </div>
-
-
-          <div className="casino-logo">
-            🎲
-          </div>
-
-
-          <h2>
-            Vavada
-          </h2>
-
-
-          <div className="rating">
-            ⭐⭐⭐⭐☆
-          </div>
-
-
-          <h3>
-            4.6 / 5
-          </h3>
-
-
-          <p>
-            ✅ Slot Games
-          </p>
-
-          <p>
-            ✅ Promotions
-          </p>
-
-          <p>
-            ✅ Rewards
-          </p>
-
-
-          <strong>
-            🎁 Casino Offers
-          </strong>
-
-
+        <a
+          href="/casinos"
+        >
 
           <button>
-            Coming Soon
+            Explore Casinos
           </button>
+
+        </a>
+
+
+      </section>
+
+
+
+
+
+      <section className="top-casinos">
+
+
+        <h2>
+          🏆 Featured Casino
+        </h2>
+
+
+
+        <div className="ranking">
+
+
+
+          <div className="rank-card">
+
+
+            <div className="badge">
+              #1 BEST CHOICE
+            </div>
+
+
+
+            <div className="casino-logo">
+              🎰
+            </div>
+
+
+
+            <h2>
+              Stake
+            </h2>
+
+
+
+            <div className="rating">
+              ⭐⭐⭐⭐⭐
+            </div>
+
+
+
+            <p>
+              Rating: 4.8 / 5
+            </p>
+
+
+
+            <p>
+              ✅ Premium Casino Games
+            </p>
+
+
+            <p>
+              ✅ Fast Payments
+            </p>
+
+
+            <p>
+              🌎 Availability depends on your location
+            </p>
+
+
+
+            <a
+              href="https://stake.com/?c=EIJ1YRw3"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+
+              <button>
+                Visit Stake
+              </button>
+
+
+            </a>
+
+
+
+          </div>
 
 
         </div>
 
 
       </section>
+
+
 
 
     </main>
