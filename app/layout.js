@@ -13,17 +13,13 @@ export default function RootLayout({ children }) {
 
       <body>
 
-
         <nav>
 
           <div className="logo">
-
             <Link href="/">
               CasinoRadar
             </Link>
-
           </div>
-
 
 
           <div className="menu">
@@ -32,62 +28,65 @@ export default function RootLayout({ children }) {
               Home
             </Link>
 
-
             <Link href="/casinos">
               Casinos
             </Link>
-
 
             <Link href="/bonuses">
               Bonuses
             </Link>
 
-
             <Link href="/slots">
               Slots
             </Link>
-
 
             <Link href="/blog">
               Blog
             </Link>
 
-
           </div>
 
-
         </nav>
-
-
 
 
         {children}
 
 
 
-
-
         <footer>
 
 
-          <h3>
-            🔞 18+ Responsible Gaming
-          </h3>
-
-
           <p>
-            CasinoRadar provides information
-            about online casinos.
-            Gambling should be entertainment
-            only.
+            🔞 18+ Only
           </p>
 
 
           <p>
-            Play responsibly.
-            Know your limits.
+            CasinoRadar provides casino information
+            and reviews. Gambling should be
+            entertainment only.
           </p>
 
+
+          <div>
+
+            <Link href="/responsible-gaming">
+              Responsible Gaming
+            </Link>
+
+            {" | "}
+
+            <Link href="/privacy">
+              Privacy Policy
+            </Link>
+
+            {" | "}
+
+            <Link href="/terms">
+              Terms & Conditions
+            </Link>
+
+          </div>
 
 
           <p>
@@ -95,18 +94,10 @@ export default function RootLayout({ children }) {
           </p>
 
 
-
-          <p>
-            Privacy Policy | Terms & Conditions | Contact
-          </p>
-
-
         </footer>
 
 
-
       </body>
-
 
     </html>
   );
