@@ -3,56 +3,101 @@ export default function Casinos() {
     <main>
 
       <h1>
-        🎰 Casino Reviews
+        🎰 Top Casino Reviews
       </h1>
 
+
       <p>
-        Discover the best online casinos,
-        ratings and bonuses.
+        Find trusted online casinos,
+        ratings and offers.
       </p>
 
 
-      <section className="cards">
+
+      <section className="ranking">
 
 
-        <div className="card">
+        <div className="rank-card">
+
+
+          <div className="badge">
+            #1 BEST CHOICE
+          </div>
+
+
+
+          <div className="casino-logo">
+            🎰
+          </div>
+
+
 
           <h2>
-            🎰 Golden Stake
+            Stake
           </h2>
 
+
+
+          <div className="rating">
+            ⭐⭐⭐⭐⭐
+          </div>
+
+
+          <h3>
+            Rating: 4.8 / 5
+          </h3>
+
+
+
           <p>
-            Premium casino review,
-            games and payments.
+            ✅ Thousands of Casino Games
           </p>
 
-          <button>
-            Read Review
-          </button>
+
+          <p>
+            ✅ Fast Payments
+          </p>
+
+
+          <p>
+            ✅ Crypto Friendly
+          </p>
+
+
+          <p>
+            🌎 Availability depends on your location
+          </p>
+
+
+
+
+          <strong>
+            💰 Welcome Offers Available
+          </strong>
+
+
+
+
+          <a
+            href="https://stake.com/?c=EIJ1YRw3"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+
+            <button>
+              Visit Stake Casino
+            </button>
+
+          </a>
+
+
 
         </div>
 
-
-
-        <div className="card">
-
-          <h2>
-            🎲 Royal Vavada
-          </h2>
-
-          <p>
-            Slots, rewards
-            and promotions.
-          </p>
-
-          <button>
-            Read Review
-          </button>
-
-        </div>
 
 
       </section>
+
 
 
     </main>
