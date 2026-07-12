@@ -24,11 +24,17 @@ export default function RootLayout({ children }) {
 
           <div className="menu">
 
-            <Link href="/">Home</Link>
-            <Link href="/casinos">Casinos</Link>
-            <Link href="/bonuses">Bonuses</Link>
-            <Link href="/slots">Slots</Link>
-            <Link href="/blog">Blog</Link>
+            <Link href="/">
+              Home
+            </Link>
+
+            <Link href="/casinos">
+              Casinos
+            </Link>
+
+            <Link href="/bonuses">
+              Bonuses
+            </Link>
 
           </div>
 
