@@ -24,38 +24,23 @@ export default function RootLayout({ children }) {
 
           <div className="menu">
 
-            <Link href="/">
-              Home
-            </Link>
-
-            <Link href="/casinos">
-              Casinos
-            </Link>
-
-            <Link href="/bonuses">
-              Bonuses
-            </Link>
-
-            <Link href="/slots">
-              Slots
-            </Link>
-
-            <Link href="/blog">
-              Blog
-            </Link>
+            <Link href="/">Home</Link>
+            <Link href="/casinos">Casinos</Link>
+            <Link href="/bonuses">Bonuses</Link>
+            <Link href="/slots">Slots</Link>
+            <Link href="/blog">Blog</Link>
 
           </div>
 
         </nav>
 
 
-
         {children}
 
 
 
-
         <footer>
+
 
           <p>
             🔞 18+ Only
@@ -63,11 +48,10 @@ export default function RootLayout({ children }) {
 
 
           <p>
-            CasinoRadar provides casino reviews
-            and information. Gambling should be
-            entertainment only.
+            CasinoRadar provides casino reviews,
+            ratings and information.
+            Gambling should be entertainment only.
           </p>
-
 
 
           <div>
@@ -80,29 +64,38 @@ export default function RootLayout({ children }) {
               Responsible Gaming
             </a>
 
-
             {" | "}
 
-
-            <Link href="/privacy">
+            <span>
               Privacy Policy
-            </Link>
-
+            </span>
 
             {" | "}
 
-
-            <Link href="/terms">
+            <span>
               Terms & Conditions
-            </Link>
+            </span>
 
           </div>
 
 
 
-          <p>
+          <small>
+
+            Privacy Policy: We respect user privacy.
+            We do not sell personal information.
+            Our website may contain third-party links
+            and affiliate links.
+
+          </small>
+
+
+
+          <small>
+
             © 2026 CasinoRadar
-          </p>
+
+          </small>
 
 
         </footer>
