@@ -4,11 +4,9 @@
 
 
 body {
+  margin: 0;
 
-  margin:0;
-
-  font-family:Arial, sans-serif;
-
+  font-family: Arial, sans-serif;
 
   background:
     linear-gradient(
@@ -17,30 +15,26 @@ body {
     ),
     url("/casino-background.jpg");
 
+  background-size: cover;
 
-  background-size:cover;
+  background-position: center;
 
-  background-position:center;
+  background-attachment: fixed;
 
-  background-attachment:fixed;
+  color: white;
 
-
-  color:white;
-
-  min-height:100vh;
-
+  min-height: 100vh;
 }
-
 
 
 
 main {
 
-  min-height:100vh;
+  min-height: 100vh;
 
-  padding:40px 20px;
+  padding: 40px 20px;
 
-  text-align:center;
+  text-align: center;
 
 }
 
@@ -51,33 +45,29 @@ main {
 
 nav {
 
-  display:flex;
+  display: flex;
 
-  justify-content:space-between;
+  justify-content: space-between;
 
-  align-items:center;
+  align-items: center;
 
+  max-width: 1200px;
 
-  max-width:1200px;
-
-  margin:0 auto 70px;
+  margin: 0 auto 70px;
 
 }
 
 
 
-
 .logo a {
 
-  color:#ffd700;
+  color: #ffd700;
 
-  text-decoration:none;
+  text-decoration: none;
 
+  font-size: 34px;
 
-  font-size:34px;
-
-  font-weight:900;
-
+  font-weight: 900;
 
   text-shadow:
 
@@ -87,30 +77,23 @@ nav {
 
 
 
-
-
 .menu {
 
-  display:flex;
+  display: flex;
 
-  gap:15px;
+  gap: 15px;
 
-  align-items:center;
+  align-items: center;
 
 }
 
 
 
-
-
 .menu a {
 
+  text-decoration: none;
 
-  text-decoration:none;
-
-
-  color:white;
-
+  color: white;
 
   background:
 
@@ -120,42 +103,29 @@ nav {
       #12081d
     );
 
+  border: 1px solid #ffd700;
 
-  border:1px solid #ffd700;
+  padding: 10px 22px;
 
+  border-radius: 30px;
 
-  padding:
+  font-weight: bold;
 
-    10px 22px;
-
-
-  border-radius:30px;
-
-
-  font-weight:bold;
-
-
-  transition:.3s;
-
+  transition: .3s;
 
 }
-
 
 
 
 .menu a:hover {
 
+  color: #111;
 
-  color:#111;
+  background: #ffd700;
 
-
-  background:#ffd700;
-
-
-  transform:translateY(-3px);
+  transform: translateY(-3px);
 
 }
-
 
 
 
@@ -164,21 +134,19 @@ nav {
 
 .hero {
 
-  max-width:900px;
+  max-width: 900px;
 
-  margin:auto;
+  margin: auto;
 
 }
 
 
 
-
 h1 {
 
-  font-size:56px;
+  font-size: 56px;
 
-  color:#ffd700;
-
+  color: #ffd700;
 
   text-shadow:
 
@@ -190,16 +158,13 @@ h1 {
 
 
 
-
 p {
 
-  font-size:20px;
+  font-size: 20px;
 
-  color:#ddd;
+  color: #ddd;
 
 }
-
-
 
 
 
@@ -208,20 +173,13 @@ p {
 
 button {
 
+  margin-top: 20px;
 
-  margin-top:20px;
+  padding: 15px 35px;
 
+  border: none;
 
-  padding:
-
-    15px 35px;
-
-
-  border:none;
-
-
-  border-radius:50px;
-
+  border-radius: 50px;
 
   background:
 
@@ -231,36 +189,25 @@ button {
       #ff8c00
     );
 
+  color: #111;
 
-  color:#111;
+  font-size: 18px;
 
+  font-weight: bold;
 
-  font-size:18px;
+  cursor: pointer;
 
-
-  font-weight:bold;
-
-
-  cursor:pointer;
-
-
-  transition:.3s;
-
+  transition: .3s;
 
 }
-
 
 
 
 button:hover {
 
-
-  transform:scale(1.08);
-
+  transform: scale(1.08);
 
 }
-
-
 
 
 
@@ -271,22 +218,15 @@ button:hover {
 
 .cards {
 
+  display: flex;
 
-  display:flex;
+  justify-content: center;
 
+  gap: 40px;
 
-  justify-content:center;
-
-
-  gap:40px;
-
-
-  margin-top:70px;
-
+  margin-top: 70px;
 
 }
-
-
 
 
 
@@ -294,15 +234,11 @@ button:hover {
 
 .card {
 
+  position: relative;
 
-  position:relative;
+  width: 340px;
 
-
-  width:340px;
-
-
-  padding:35px;
-
+  padding: 35px;
 
   background:
 
@@ -312,21 +248,15 @@ button:hover {
       #12081d
     );
 
+  border-radius: 25px;
 
-  border-radius:25px;
-
-
-  border:1px solid #ffd700;
-
+  border: 1px solid #ffd700;
 
   box-shadow:
 
     0 0 30px rgba(255,215,0,.35);
 
-
 }
-
-
 
 
 
@@ -334,81 +264,55 @@ button:hover {
 
 .card:hover {
 
-
-  transform:translateY(-10px);
-
+  transform: translateY(-10px);
 
 }
-
 
 
 
 .badge {
 
+  position: absolute;
 
-  position:absolute;
+  top: -25px;
 
+  left: 50%;
 
-  top:-25px;
+  transform: translateX(-50%);
 
+  padding: 10px 25px;
 
-  left:50%;
+  border-radius: 30px;
 
+  background: #ffd700;
 
-  transform:translateX(-50%);
+  color: #111;
 
+  font-weight: bold;
 
-  padding:
-
-    10px 25px;
-
-
-  border-radius:30px;
-
-
-  background:#ffd700;
-
-
-  color:#111;
-
-
-  font-weight:bold;
-
-
-  white-space:nowrap;
-
+  white-space: nowrap;
 
 }
 
 
 
-
-
 .casino-logo {
 
+  width: 90px;
 
-  width:90px;
+  height: 90px;
 
-  height:90px;
+  margin: 20px auto;
 
+  border-radius: 50%;
 
-  margin:20px auto;
+  display: flex;
 
+  align-items: center;
 
-  border-radius:50%;
+  justify-content: center;
 
-
-  display:flex;
-
-
-  align-items:center;
-
-
-  justify-content:center;
-
-
-  font-size:45px;
-
+  font-size: 45px;
 
   background:
 
@@ -418,72 +322,84 @@ button:hover {
       #8a5a00
     );
 
-
 }
-
-
 
 
 
 .rating {
 
+  color: #ffd700;
 
-  color:#ffd700;
-
-
-  font-size:24px;
-
+  font-size: 24px;
 
 }
 
 
 
-
-/* FOOTER AREA */
+/* FOOTER */
 
 
 footer {
 
+  margin-top: 80px;
 
-  margin-top:100px;
+  padding: 30px 20px;
 
+  background: rgba(0,0,0,.5);
 
-  padding:40px 20px;
+  border-top: 1px solid #ffd700;
 
-
-  background:rgba(0,0,0,.5);
-
-
-  border-top:1px solid #ffd700;
-
-
-  text-align:center;
-
+  text-align: center;
 
 }
-
-
-
-
-footer h3 {
-
-
-  color:#ffd700;
-
-
-}
-
 
 
 
 footer p {
 
+  font-size: 14px;
 
-  font-size:16px;
+  color: #aaa;
 
+  margin: 10px;
 
 }
 
+
+
+footer a {
+
+  color: #ddd;
+
+  text-decoration: none;
+
+  font-weight: normal;
+
+}
+
+
+
+footer a:hover {
+
+  color: #ffd700;
+
+}
+
+
+
+footer small {
+
+  display: block;
+
+  max-width: 800px;
+
+  margin: 12px auto;
+
+  color: #999;
+
+  font-size: 12px;
+
+}
 
 
 
@@ -493,56 +409,39 @@ footer p {
 @media(max-width:768px){
 
 
-nav {
+  nav {
+
+    flex-direction: column;
+
+    gap: 25px;
+
+  }
 
 
-  flex-direction:column;
+  .menu {
 
-  gap:25px;
+    flex-wrap: wrap;
 
-}
+    justify-content: center;
 
-
-
-.menu {
+  }
 
 
-  flex-wrap:wrap;
+  h1 {
 
-  justify-content:center;
+    font-size: 38px;
 
-}
-
-
-
-h1 {
+  }
 
 
-  font-size:38px;
+  .ranking,
 
-}
+  .cards {
 
+    flex-direction: column;
 
+    align-items: center;
 
-.ranking,
+  }
 
-.cards {
-
-
-  flex-direction:column;
-
-  align-items:center;
-
-}
-
-
-}
-footer a {
-  color: #ffd700;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-footer a:hover {
-  color: white;
 }
