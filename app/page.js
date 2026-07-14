@@ -36,7 +36,7 @@ export default function Home() {
 
 
           <p>
-            Crypto-focused casino platform
+            Crypto-friendly casino platform
             with poker, roulette and live games.
           </p>
 
@@ -44,7 +44,7 @@ export default function Home() {
           <p>
 
             <span style={{ color: "#00ff66" }}>
-              ✅ Crypto Casino Only
+              ✅ Crypto Friendly
             </span>
 
             <br />
@@ -147,6 +147,7 @@ export default function Home() {
 
 
 
+
       <section className="hero">
 
 
@@ -158,7 +159,7 @@ export default function Home() {
         <p>
           We provide casino reviews,
           payment information and bonus guides
-          to help players compare online casinos.
+          to help users compare online casinos.
         </p>
 
 
