@@ -1,193 +1,92 @@
-import Link from "next/link";
+<section className="cards">
 
-export default function Home() {
-  return (
-    <main>
+  <div className="card">
 
-      {/* HERO */}
+    <div className="casino-logo">
+      ⭐
+    </div>
 
-      <section className="hero">
+    <h2>
+      Rating
+    </h2>
 
-        <h1>
-          Compare Online Casinos, Bonuses & Features
-        </h1>
+    <p>
+      4.8 / 5
+    </p>
 
-        <p>
-          CasinoRadar provides casino reviews,
-          bonus guides and comparisons to help
-          players make informed decisions.
-        </p>
+  </div>
 
-        <Link href="/casinos">
-          <button>
-            Explore Casinos
-          </button>
-        </Link>
 
-      </section>
+  <div className="card">
 
+    <div className="casino-logo">
+      🎰
+    </div>
 
-      {/* FEATURED CASINOS */}
+    <h2>
+      Roulette
+    </h2>
 
-      <section className="cards">
+    <p>
+      Live roulette tables and
+      classic casino experience.
+    </p>
 
+  </div>
 
-        <div className="card">
 
-          <div className="casino-logo">
-            🎲
-          </div>
+  <div className="card">
 
-          <h2>
-            Stake Casino
-          </h2>
+    <div className="casino-logo">
+      ♠️
+    </div>
 
-          <p>
-            A popular crypto casino platform
-            with casino games, live games
-            and modern features.
-          </p>
+    <h2>
+      Poker
+    </h2>
 
-          <p>
-            ✅ Large game selection
-            <br />
-            ✅ Live casino
-            <br />
-            ✅ Crypto support
-            <br />
-            ✅ Fast transactions
-          </p>
+    <p>
+      Online poker games and
+      competitive tables.
+    </p>
 
-          <Link href="/casinos/stake">
-            <button>
-              Read Stake Review
-            </button>
-          </Link>
+  </div>
 
-        </div>
 
+  <div className="card">
 
+    <div className="casino-logo">
+      ₿
+    </div>
 
-        <div className="card">
+    <h2>
+      Crypto Payments
+    </h2>
 
-          <div className="casino-logo">
-            🎰
-          </div>
+    <p>
+      Bitcoin, Ethereum and
+      cryptocurrency options.
+    </p>
 
-          <h2>
-            Vavada Casino
-          </h2>
+  </div>
 
-          <p>
-            Casino review including bonuses,
-            payments and player experience.
-          </p>
 
-          <p>
-            ✅ Casino games
-            <br />
-            ✅ Promotions
-            <br />
-            ✅ Payment options
-            <br />
-            ✅ Mobile friendly
-          </p>
+  <div className="card">
 
-          <Link href="/casinos/vavada">
-            <button>
-              Read Vavada Review
-            </button>
-          </Link>
+    <div className="casino-logo">
+      💳
+    </div>
 
-        </div>
+    <h2>
+      Banking
+    </h2>
 
+    <p>
+      Convenient payment methods
+      and deposits.
+    </p>
 
-      </section>
+  </div>
 
 
-
-      {/* FEATURES */}
-
-      <section className="cards">
-
-
-        <div className="card">
-
-          <div className="casino-logo">
-            🏆
-          </div>
-
-          <h2>
-            Casino Reviews
-          </h2>
-
-          <p>
-            We analyze casinos based on
-            features, payments and user experience.
-          </p>
-
-        </div>
-
-
-
-        <div className="card">
-
-          <div className="casino-logo">
-            🎁
-          </div>
-
-          <h2>
-            Bonus Guides
-          </h2>
-
-          <p>
-            Discover casino promotions
-            and bonus information.
-          </p>
-
-        </div>
-
-
-
-        <div className="card">
-
-          <div className="casino-logo">
-            🛡️
-          </div>
-
-          <h2>
-            Responsible Gaming
-          </h2>
-
-          <p>
-            Gambling should always be
-            entertainment. Play responsibly.
-          </p>
-
-        </div>
-
-
-      </section>
-
-
-
-      {/* TRUST */}
-
-      <section className="hero">
-
-        <h2>
-          Why Choose CasinoRadar?
-        </h2>
-
-        <p>
-          We provide independent casino reviews,
-          comparisons and guides to help users
-          find information about online casinos.
-        </p>
-
-      </section>
-
-
-    </main>
-  );
-}
+</section>
