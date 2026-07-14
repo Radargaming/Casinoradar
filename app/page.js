@@ -1,18 +1,28 @@
-export default function Stake() {
+import Link from "next/link";
+
+export default function Home() {
   return (
     <main>
+
 
       <section className="hero">
 
         <h1>
-          🎲 Stake Casino Review
+          Find The Best Online Casinos
         </h1>
 
         <p>
-          Complete Stake Casino review including
-          casino games, roulette, poker,
-          crypto payments and platform features.
+          CasinoRadar helps you compare online casinos,
+          bonuses and features to make smarter choices.
         </p>
+
+
+        <Link href="/casinos">
+          <button>
+            View Top Casinos
+          </button>
+        </Link>
+
 
       </section>
 
@@ -23,93 +33,113 @@ export default function Stake() {
 
         <div className="card">
 
+
           <div className="casino-logo">
-            ⭐
+            🎲
           </div>
 
+
           <h2>
-            Rating
+            Stake Casino
           </h2>
 
+
           <p>
-            4.8 / 5
+            Popular crypto casino platform
+            with casino games, live casino
+            and modern features.
           </p>
+
+
+          <p>
+            <span style={{color:"#00ff66"}}>
+              ✅ Large game selection
+            </span>
+            <br />
+
+            <span style={{color:"#00ff66"}}>
+              ✅ Live casino
+            </span>
+            <br />
+
+            <span style={{color:"#00ff66"}}>
+              ✅ Crypto support
+            </span>
+            <br />
+
+            <span style={{color:"#00ff66"}}>
+              ✅ Fast payments
+            </span>
+
+          </p>
+
+
+          <Link href="/casinos/stake">
+
+            <button>
+              Read Review
+            </button>
+
+          </Link>
+
 
         </div>
 
 
 
+
+
         <div className="card">
+
 
           <div className="casino-logo">
             🎰
           </div>
 
-          <h2>
-            Roulette
-          </h2>
-
-          <p>
-            Live roulette tables and
-            classic casino games.
-          </p>
-
-        </div>
-
-
-
-        <div className="card">
-
-          <div className="casino-logo">
-            ♠️
-          </div>
 
           <h2>
-            Poker
+            Vavada Casino
           </h2>
 
-          <p>
-            Online poker games and
-            competitive poker tables.
-          </p>
-
-        </div>
-
-
-
-        <div className="card">
-
-          <div className="casino-logo">
-            ₿
-          </div>
-
-          <h2>
-            Crypto Payments
-          </h2>
 
           <p>
-            Bitcoin, Ethereum and
-            cryptocurrency options.
+            Online casino review including
+            bonuses, games and payment options.
           </p>
 
-        </div>
-
-
-
-        <div className="card">
-
-          <div className="casino-logo">
-            💳
-          </div>
-
-          <h2>
-            Banking
-          </h2>
 
           <p>
-            Convenient deposits and
-            payment methods.
+
+            <span style={{color:"#00ff66"}}>
+              ✅ Casino games
+            </span>
+            <br />
+
+            <span style={{color:"#00ff66"}}>
+              ✅ Promotions
+            </span>
+            <br />
+
+            <span style={{color:"#00ff66"}}>
+              ✅ Multiple payments
+            </span>
+            <br />
+
+            <span style={{color:"#00ff66"}}>
+              ✅ Mobile friendly
+            </span>
+
           </p>
+
+
+          <Link href="/casinos/vavada">
+
+            <button>
+              Read Review
+            </button>
+
+          </Link>
+
 
         </div>
 
@@ -119,45 +149,39 @@ export default function Stake() {
 
 
 
-      <section className="card">
 
-        <h2>
-          💰 Bonus Information
-        </h2>
-
-        <p>
-          Discover current promotions,
-          rewards and available offers.
-        </p>
+      <section className="cards">
 
 
-        <button>
-          Visit Stake
-        </button>
+        <div className="card">
 
+          <h2>
+            🏆 Casino Reviews
+          </h2>
 
-      </section>
+          <p>
+            We compare casinos based on
+            games, payments and features.
+          </p>
+
+        </div>
 
 
 
+        <div className="card">
 
-      <section className="card">
+          <h2>
+            🎁 Bonuses
+          </h2>
 
-        <h2>
-          🎯 Stake Features
-        </h2>
+          <p>
+            Discover promotions and
+            casino offers.
+          </p>
 
-        <p>
-          ✓ Large casino selection
-          <br />
-          ✓ Live casino experience
-          <br />
-          ✓ Poker and table games
-          <br />
-          ✓ Cryptocurrency support
-          <br />
-          ✓ Modern gaming platform
-        </p>
+        </div>
+
+
 
       </section>
 
