@@ -4,7 +4,6 @@ export default function Home() {
   return (
     <main>
 
-
       <section className="hero">
 
         <h1>
@@ -15,14 +14,6 @@ export default function Home() {
           CasinoRadar helps you compare online casinos,
           bonuses and features to make smarter choices.
         </p>
-
-
-        <Link href="/casinos">
-          <button>
-            View Top Casinos
-          </button>
-        </Link>
-
 
       </section>
 
@@ -45,39 +36,43 @@ export default function Home() {
 
 
           <p>
-            Popular crypto casino platform
-            with casino games, live casino
-            and modern features.
+            Crypto-focused casino platform
+            with poker, roulette and live games.
           </p>
 
 
           <p>
-            <span style={{color:"#00ff66"}}>
-              ✅ Large game selection
+
+            <span style={{ color: "#00ff66" }}>
+              ✅ Crypto Casino Only
             </span>
+
             <br />
 
-            <span style={{color:"#00ff66"}}>
-              ✅ Live casino
+            <span style={{ color: "#00ff66" }}>
+              ✅ Poker
             </span>
+
             <br />
 
-            <span style={{color:"#00ff66"}}>
-              ✅ Crypto support
+            <span style={{ color: "#00ff66" }}>
+              ✅ Roulette
             </span>
+
             <br />
 
-            <span style={{color:"#00ff66"}}>
-              ✅ Fast payments
+            <span style={{ color: "#00ff66" }}>
+              ✅ Live Casino
             </span>
 
           </p>
+
 
 
           <Link href="/casinos/stake">
 
             <button>
-              Read Review
+              Read Stake Review
             </button>
 
           </Link>
@@ -103,39 +98,43 @@ export default function Home() {
 
 
           <p>
-            Online casino review including
-            bonuses, games and payment options.
+            Online casino with bonuses,
+            games and flexible payment options.
           </p>
 
 
           <p>
 
-            <span style={{color:"#00ff66"}}>
-              ✅ Casino games
+            <span style={{ color: "#00ff66" }}>
+              ✅ Neteller
             </span>
+
             <br />
 
-            <span style={{color:"#00ff66"}}>
-              ✅ Promotions
+            <span style={{ color: "#00ff66" }}>
+              ✅ Credit Cards
             </span>
+
             <br />
 
-            <span style={{color:"#00ff66"}}>
-              ✅ Multiple payments
+            <span style={{ color: "#00ff66" }}>
+              ✅ Crypto Payments
             </span>
+
             <br />
 
-            <span style={{color:"#00ff66"}}>
-              ✅ Mobile friendly
+            <span style={{ color: "#00ff66" }}>
+              ✅ Casino Bonuses
             </span>
 
           </p>
 
 
+
           <Link href="/casinos/vavada">
 
             <button>
-              Read Review
+              Read Vavada Review
             </button>
 
           </Link>
@@ -148,39 +147,19 @@ export default function Home() {
 
 
 
+      <section className="hero">
 
 
-      <section className="cards">
+        <h2>
+          Why Choose CasinoRadar?
+        </h2>
 
 
-        <div className="card">
-
-          <h2>
-            🏆 Casino Reviews
-          </h2>
-
-          <p>
-            We compare casinos based on
-            games, payments and features.
-          </p>
-
-        </div>
-
-
-
-        <div className="card">
-
-          <h2>
-            🎁 Bonuses
-          </h2>
-
-          <p>
-            Discover promotions and
-            casino offers.
-          </p>
-
-        </div>
-
+        <p>
+          We provide casino reviews,
+          payment information and bonus guides
+          to help players compare online casinos.
+        </p>
 
 
       </section>
