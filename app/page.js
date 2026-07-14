@@ -18,17 +18,14 @@ export default function Home() {
       </section>
 
 
-
       <section className="cards">
 
 
         <div className="card">
 
-
           <div className="casino-logo">
             🎲
           </div>
-
 
           <h2>
             Stake Casino
@@ -76,15 +73,12 @@ export default function Home() {
 
           </Link>
 
-
         </div>
 
 
 
 
-
         <div className="card">
-
 
           <div className="casino-logo">
             🎰
@@ -96,37 +90,31 @@ export default function Home() {
           </h2>
 
 
+          <p
+            style={{
+              color:"#ffd700",
+              fontSize:"18px",
+              margin:"8px 0"
+            }}
+          >
+            🇺🇸
+          </p>
+
+
+          <p
+            style={{
+              color:"#ffcc00",
+              fontSize:"13px"
+            }}
+          >
+            US Players Not Accepted
+          </p>
+
+
           <p>
             Online casino with bonuses,
             games and multiple payment options.
           </p>
-
-
-
-          <div
-            style={{
-              margin:"15px 0",
-              padding:"10px",
-              border:"1px solid #ffd700",
-              borderRadius:"15px",
-              background:"rgba(0,0,0,.35)"
-            }}
-          >
-
-            <p style={{fontSize:"30px"}}>
-              🇺🇸
-            </p>
-
-            <p style={{color:"#ffd700"}}>
-              US Players Notice
-            </p>
-
-            <p style={{fontSize:"14px"}}>
-              Check availability in your region before playing.
-            </p>
-
-          </div>
-
 
 
           <p>
@@ -156,7 +144,6 @@ export default function Home() {
           </p>
 
 
-
           <Link href="/casinos/vavada">
 
             <button>
@@ -172,21 +159,17 @@ export default function Home() {
       </section>
 
 
-
       <section className="hero">
-
 
         <h2>
           Why Choose CasinoRadar?
         </h2>
-
 
         <p>
           We provide casino reviews,
           payment information and bonus guides
           to help users compare online casinos.
         </p>
-
 
       </section>
 
