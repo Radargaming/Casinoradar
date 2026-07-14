@@ -2,15 +2,19 @@ export default function Stake() {
   return (
     <main>
 
-      <h1>
-        🎰 Golden Stake Casino
-      </h1>
+      <section className="hero">
 
+        <h1>
+          🎲 Stake Casino Review
+        </h1>
 
-      <p>
-        Premium casino review,
-        games and bonus information.
-      </p>
+        <p>
+          Complete Stake Casino review including
+          games, payments, features and player
+          experience.
+        </p>
+
+      </section>
 
 
 
@@ -31,7 +35,6 @@ export default function Stake() {
 
 
 
-
         <div className="card">
 
           <h2>
@@ -39,11 +42,11 @@ export default function Stake() {
           </h2>
 
           <p>
-            10,000+ casino games
+            Thousands of casino games,
+            live casino and popular gaming options.
           </p>
 
         </div>
-
 
 
 
@@ -54,7 +57,8 @@ export default function Stake() {
           </h2>
 
           <p>
-            Fast and secure payments
+            Cryptocurrency payments and
+            fast transaction options.
           </p>
 
         </div>
@@ -65,22 +69,58 @@ export default function Stake() {
 
 
 
+      <section className="card">
+
+        <h2>
+          ✅ Pros
+        </h2>
+
+        <p>
+          ✓ Large game selection
+          <br />
+          ✓ Crypto support
+          <br />
+          ✓ Live casino
+          <br />
+          ✓ Modern platform
+        </p>
+
+
+      </section>
+
+
+
 
       <section className="card">
 
         <h2>
-          💰 Welcome Bonus
+          ❌ Things To Consider
         </h2>
 
+        <p>
+          Always check availability in your
+          region and play responsibly.
+        </p>
+
+      </section>
+
+
+
+
+      <section className="card">
+
+        <h2>
+          💰 Bonus Information
+        </h2>
 
         <p>
-          Discover exclusive casino
-          promotions and rewards.
+          Check current promotions and offers
+          directly through official channels.
         </p>
 
 
         <button>
-          Visit Casino
+          Visit Stake
         </button>
 
 
