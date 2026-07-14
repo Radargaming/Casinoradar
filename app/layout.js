@@ -102,9 +102,7 @@ export default function RootLayout({ children }) {
             © 2026 CasinoRadar
 
           </small>
-<p>
-  verify13
-</p>
+
 
         </footer>
 
