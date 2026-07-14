@@ -18,18 +18,31 @@ export default function Home() {
       </section>
 
 
+
       <section className="cards">
 
 
         <div className="card">
 
+
           <div className="casino-logo">
             🎲
           </div>
 
+
           <h2>
             Stake Casino
           </h2>
+
+
+          <p
+            style={{
+              color:"#ffd700",
+              fontSize:"13px"
+            }}
+          >
+            Please check availability in your region.
+          </p>
 
 
           <p>
@@ -73,12 +86,15 @@ export default function Home() {
 
           </Link>
 
+
         </div>
 
 
 
 
+
         <div className="card">
+
 
           <div className="casino-logo">
             🎰
@@ -93,21 +109,10 @@ export default function Home() {
           <p
             style={{
               color:"#ffd700",
-              fontSize:"18px",
-              margin:"8px 0"
-            }}
-          >
-            🇺🇸
-          </p>
-
-
-          <p
-            style={{
-              color:"#ffcc00",
               fontSize:"13px"
             }}
           >
-            US Players Not Accepted
+            Please check availability in your region.
           </p>
 
 
@@ -159,17 +164,21 @@ export default function Home() {
       </section>
 
 
+
       <section className="hero">
+
 
         <h2>
           Why Choose CasinoRadar?
         </h2>
+
 
         <p>
           We provide casino reviews,
           payment information and bonus guides
           to help users compare online casinos.
         </p>
+
 
       </section>
 
