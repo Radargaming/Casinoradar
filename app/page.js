@@ -9,81 +9,95 @@ export default function Home() {
       <section className="hero">
 
         <h1>
-          Find The Best Online Casinos
+          Compare Online Casinos, Bonuses & Features
         </h1>
 
         <p>
-          CasinoRadar helps you compare online casinos,
-          bonuses and features to make smarter choices.
+          CasinoRadar provides casino reviews,
+          bonus guides and comparisons to help
+          players make informed decisions.
         </p>
 
-
         <Link href="/casinos">
-
           <button>
-            View Top Casinos
+            Explore Casinos
           </button>
-
         </Link>
-
 
       </section>
 
 
-
-      {/* FEATURED CASINO */}
+      {/* FEATURED CASINOS */}
 
       <section className="cards">
 
 
         <div className="card">
 
-
           <div className="casino-logo">
-            🎰
+            🎲
           </div>
 
-
           <h2>
-            Featured Casino
+            Stake Casino
           </h2>
 
-
-          <h3>
-            Stake Casino ⭐⭐⭐⭐⭐
-          </h3>
-
-
           <p>
-            One of the popular online gaming platforms
-            with casino games, live games and modern
-            features.
+            A popular crypto casino platform
+            with casino games, live games
+            and modern features.
           </p>
-
 
           <p>
             ✅ Large game selection
             <br />
             ✅ Live casino
             <br />
-            ✅ Fast payments
-            <br />
             ✅ Crypto support
+            <br />
+            ✅ Fast transactions
           </p>
 
-
-          <a
-            href="https://stake.com/?c=EIJ1YRw3"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-
+          <Link href="/casinos/stake">
             <button>
-              Visit Stake
+              Read Stake Review
             </button>
+          </Link>
 
-          </a>
+        </div>
 
+
+
+        <div className="card">
+
+          <div className="casino-logo">
+            🎰
+          </div>
+
+          <h2>
+            Vavada Casino
+          </h2>
+
+          <p>
+            Casino review including bonuses,
+            payments and player experience.
+          </p>
+
+          <p>
+            ✅ Casino games
+            <br />
+            ✅ Promotions
+            <br />
+            ✅ Payment options
+            <br />
+            ✅ Mobile friendly
+          </p>
+
+          <Link href="/casinos/vavada">
+            <button>
+              Read Vavada Review
+            </button>
+          </Link>
 
         </div>
 
@@ -92,7 +106,7 @@ export default function Home() {
 
 
 
-      {/* MAIN FEATURES */}
+      {/* FEATURES */}
 
       <section className="cards">
 
@@ -104,25 +118,15 @@ export default function Home() {
           </div>
 
           <h2>
-            Top Rated Casinos
+            Casino Reviews
           </h2>
 
           <p>
-            We review casinos based on games,
-            payments and user experience.
+            We analyze casinos based on
+            features, payments and user experience.
           </p>
 
-
-          <Link href="/casinos">
-
-            <button>
-              View Casinos
-            </button>
-
-          </Link>
-
         </div>
-
 
 
 
@@ -132,29 +136,16 @@ export default function Home() {
             🎁
           </div>
 
-
           <h2>
-            Casino Bonuses
+            Bonus Guides
           </h2>
 
-
           <p>
-            Discover available promotions
-            and casino offers.
+            Discover casino promotions
+            and bonus information.
           </p>
 
-
-          <Link href="/bonuses">
-
-            <button>
-              View Bonuses
-            </button>
-
-          </Link>
-
-
         </div>
-
 
 
 
@@ -164,17 +155,14 @@ export default function Home() {
             🛡️
           </div>
 
-
           <h2>
             Responsible Gaming
           </h2>
 
-
           <p>
-            Gambling should always be entertainment.
-            Play responsibly and know your limits.
+            Gambling should always be
+            entertainment. Play responsibly.
           </p>
-
 
         </div>
 
@@ -183,22 +171,19 @@ export default function Home() {
 
 
 
-      {/* TRUST SECTION */}
+      {/* TRUST */}
 
       <section className="hero">
-
 
         <h2>
           Why Choose CasinoRadar?
         </h2>
 
-
         <p>
-          We provide casino reviews, ratings and
-          information to help users compare
-          online gaming platforms.
+          We provide independent casino reviews,
+          comparisons and guides to help users
+          find information about online casinos.
         </p>
-
 
       </section>
 
