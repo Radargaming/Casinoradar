@@ -43,30 +43,29 @@ export default function Home() {
 
           <p>
 
-            <span style={{ color: "#00ff66" }}>
+            <span style={{color:"#00ff66"}}>
               ✅ Crypto Friendly
             </span>
 
             <br />
 
-            <span style={{ color: "#00ff66" }}>
+            <span style={{color:"#00ff66"}}>
               ✅ Poker
             </span>
 
             <br />
 
-            <span style={{ color: "#00ff66" }}>
+            <span style={{color:"#00ff66"}}>
               ✅ Roulette
             </span>
 
             <br />
 
-            <span style={{ color: "#00ff66" }}>
+            <span style={{color:"#00ff66"}}>
               ✅ Live Casino
             </span>
 
           </p>
-
 
 
           <Link href="/casinos/stake">
@@ -99,31 +98,58 @@ export default function Home() {
 
           <p>
             Online casino with bonuses,
-            games and flexible payment options.
+            games and multiple payment options.
           </p>
+
+
+
+          <div
+            style={{
+              margin:"15px 0",
+              padding:"10px",
+              border:"1px solid #ffd700",
+              borderRadius:"15px",
+              background:"rgba(0,0,0,.35)"
+            }}
+          >
+
+            <p style={{fontSize:"30px"}}>
+              🇺🇸
+            </p>
+
+            <p style={{color:"#ffd700"}}>
+              US Players Notice
+            </p>
+
+            <p style={{fontSize:"14px"}}>
+              Check availability in your region before playing.
+            </p>
+
+          </div>
+
 
 
           <p>
 
-            <span style={{ color: "#00ff66" }}>
+            <span style={{color:"#00ff66"}}>
               ✅ Neteller
             </span>
 
             <br />
 
-            <span style={{ color: "#00ff66" }}>
+            <span style={{color:"#00ff66"}}>
               ✅ Credit Cards
             </span>
 
             <br />
 
-            <span style={{ color: "#00ff66" }}>
+            <span style={{color:"#00ff66"}}>
               ✅ Crypto Payments
             </span>
 
             <br />
 
-            <span style={{ color: "#00ff66" }}>
+            <span style={{color:"#00ff66"}}>
               ✅ Casino Bonuses
             </span>
 
@@ -144,7 +170,6 @@ export default function Home() {
 
 
       </section>
-
 
 
 
